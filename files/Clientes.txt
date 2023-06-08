@@ -1,0 +1,6 @@
+0123456788,1234,joseph,garcia,2020-10-16,adasdas,231123,Masculino,Guayaquil,12afdas
+0123456787,1234,gdfgdf,dfgdfgd,2020-10-16,fdgdg,5435345,Masculino,Guayaquil,gfhfh
+0926579699,123,ivonne,minchala,2020-10-16,ivonne@gmail,0967613854,Femenino,Guayaquil,coop
+0123456798,123,ivonne,minchala,2020-10-03,ivonne@gmail,0967613854,Femenino,Guayaquil,coop 28
+0923001242,1234,a,asdasd,2020-10-05,as@,0923000000,Masculino,Guayaquil,fff223
+0951995240,11111,aaaa,aaaa,2023-06-03,huhuhuh,1151515,Masculino,Guayaquil,dddd
