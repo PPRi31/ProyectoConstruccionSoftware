@@ -3,14 +3,26 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/ProyectoSegundo5/src/Visual/frmConsultarDatos.java</file>
-            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/ProyectoSegundo5/src/Visual/frmRegistro.java</file>
-            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/ProyectoSegundo5/src/Visual/frmMenu.java</file>
-            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/ProyectoSegundo5/src/Visual/frmConsultarCompras.java</file>
-            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/ProyectoSegundo5/src/Visual/frmConsultaCancelacionesCompra.java</file>
-            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/ProyectoSegundo5/src/Visual/frmConsultarDatosClientes.java</file>
-            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/ProyectoSegundo5/src/Control/AdmCliente.java</file>
-            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/ProyectoSegundo5/src/Control/AdmVehiculos.java</file>
+            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/Proyecto%20-Construccion%20de%20software%20-%20Grupo%209/ProyectoSegundo5/src/Visual/frmConsultarDatos.java</file>
+            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/Proyecto%20-Construccion%20de%20software%20-%20Grupo%209/ProyectoSegundo5/src/proyectosegundo/ProyectoSegundo.java</file>
+            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/Proyecto%20-Construccion%20de%20software%20-%20Grupo%209/ProyectoSegundo5/src/Modelo/Cliente.java</file>
+            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/Proyecto%20-Construccion%20de%20software%20-%20Grupo%209/ProyectoSegundo5/src/Visual/frmConsultarCompras.java</file>
+            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/Proyecto%20-Construccion%20de%20software%20-%20Grupo%209/ProyectoSegundo5/src/Visual/frmMenuAdministrador.java</file>
+            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/Proyecto%20-Construccion%20de%20software%20-%20Grupo%209/ProyectoSegundo5/src/Visual/frmIngreso.java</file>
+            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/Proyecto%20-Construccion%20de%20software%20-%20Grupo%209/ProyectoSegundo5/src/Visual/frmRegistro.java</file>
+            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/Proyecto%20-Construccion%20de%20software%20-%20Grupo%209/ProyectoSegundo5/src/Visual/frmVisualizar.java</file>
+            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/Proyecto%20-Construccion%20de%20software%20-%20Grupo%209/ProyectoSegundo5/src/Control/AdmCliente.java</file>
+            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/Proyecto%20-Construccion%20de%20software%20-%20Grupo%209/ProyectoSegundo5/src/Modelo/Vehiculo.java</file>
+            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/Proyecto%20-Construccion%20de%20software%20-%20Grupo%209/ProyectoSegundo5/src/Visual/frmVentas.java</file>
+            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/Proyecto%20-Construccion%20de%20software%20-%20Grupo%209/ProyectoSegundo5/src/excepcion/miExcepcion.java</file>
+            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/Proyecto%20-Construccion%20de%20software%20-%20Grupo%209/ProyectoSegundo5/src/Visual/frmConsultaCancelacionesCompra.java</file>
+            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/Proyecto%20-Construccion%20de%20software%20-%20Grupo%209/ProyectoSegundo5/src/Control/AdmCompra.java</file>
+            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/Proyecto%20-Construccion%20de%20software%20-%20Grupo%209/ProyectoSegundo5/src/Control/AdmVehiculos.java</file>
+            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/Proyecto%20-Construccion%20de%20software%20-%20Grupo%209/ProyectoSegundo5/src/Visual/frmGanancias.java</file>
+            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/Proyecto%20-Construccion%20de%20software%20-%20Grupo%209/ProyectoSegundo5/src/Visual/frmRealizarCompra.java</file>
+            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/Proyecto%20-Construccion%20de%20software%20-%20Grupo%209/ProyectoSegundo5/src/Visual/frmConsultarDatosClientes.java</file>
+            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/Proyecto%20-Construccion%20de%20software%20-%20Grupo%209/ProyectoSegundo5/src/Visual/frmMenu.java</file>
+            <file>file:/C:/Users/Alex%20Rizo/OneDrive/Escritorio/6to%20semestre/Construccion%20de%20software/nnn/Proyecto%20-Construccion%20de%20software%20-%20Grupo%209/ProyectoSegundo5/src/Archivos/Archivo.java</file>
         </group>
     </open-files>
 </project-private>

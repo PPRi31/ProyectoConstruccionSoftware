@@ -13,14 +13,7 @@ import java.time.ZoneId;
 import java.util.Date;
 import javax.swing.JOptionPane;
 
-/*
-Grupo #4
-Integrantes:
-*  Ivonne Roxana Minchala Plúas 
- * Joseph Gabriel García Camacho 
- * Marcos Adonis Merchan Mendoza 
- * Alexander Jesús Zambrano Narváez
-*/
+
 public class frmConsultarDatos extends javax.swing.JFrame {
 
     AdmCliente adm = AdmCliente.getAdmCliente();

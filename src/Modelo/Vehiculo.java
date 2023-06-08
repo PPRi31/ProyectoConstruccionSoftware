@@ -1,13 +1,4 @@
 package Modelo;
-/*
-Grupo #4
-Integrantes:
-*  Ivonne Roxana Minchala Plúas 
- * Joseph Gabriel García Camacho 
- * Marcos Adonis Merchan Mendoza 
- * Alexander Jesús Zambrano Narváez
-*/
-
 
 import java.time.LocalDate;
 import java.util.Date;
@@ -96,17 +87,7 @@ public class Vehiculo {
     public void setCuota(String cuota) {
         this.cuota = cuota;
     }
-    
 
-    /*@Override
-    public String toString() {
-        return "Marca: " + marca + "\nModelo: " + modelo + "\nColor: " + color + 
-                "\nAño: " + anio + "\nPrecio: " + precio + "\nFecha de Compra: " 
-                + fechaCompra + "\nModo de Pago: " + modoPago +
-                "\nPrecio Final: " + precioFinal +
-                "\nCuota: " + cuota;
-    }*/
-    
 @Override
 public String toString() {
     return marca + "," + modelo + "," + color + "," + anio + "," + precio + 

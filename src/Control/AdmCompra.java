@@ -1,13 +1,6 @@
 
 package Control;
-/*
-Grupo #4
-Integrantes:
-*  Ivonne Roxana Minchala Plúas 
- * Joseph Gabriel García Camacho 
- * Marcos Adonis Merchan Mendoza 
- * Alexander Jesús Zambrano Narváez
-*/
+
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.util.ArrayList;
@@ -74,13 +67,10 @@ public class AdmCompra {
     AdmCliente admCliente = AdmCliente.getAdmCliente();
     ArrayList<Vehiculo> vehiculos = null;
     Vehiculo compraVehiculo = null;
-    //DatosCompra  datosc=null;
     private static AdmCompra admcompra = null;
 
     public AdmCompra() {
         vehiculos = new ArrayList<>();
-        //this.vehiculoToArrayList();
-      
     }
 
     public static AdmCompra getAdmCompra() {
@@ -93,7 +83,6 @@ public class AdmCompra {
     public ArrayList<Vehiculo> getListadoCompras() {
         return vehiculos;
     }
-// Agregas este método
 
     public void añadircancelados(Vehiculo p,String fecha) {
         BufferedWriter bw = null;
@@ -114,10 +103,6 @@ public class AdmCompra {
 
         }
     }
-// Luego agregas este método
-   
-
-    
 
     public String BuscarModelo(String modelo) {
 

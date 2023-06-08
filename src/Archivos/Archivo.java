@@ -16,14 +16,7 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/*
-Grupo #4
-Integrantes:
-*  Ivonne Roxana Minchala Plúas 
- * Joseph Gabriel García Camacho 
- * Marcos Adonis Merchan Mendoza 
- * Alexander Jesús Zambrano Narváez
-*/
+
 
 public class Archivo {
     ArrayList <Vehiculo> vehiculo=new ArrayList <Vehiculo>();

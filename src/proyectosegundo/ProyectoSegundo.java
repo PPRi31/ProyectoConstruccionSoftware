@@ -1,13 +1,6 @@
 
 package proyectosegundo;
-/*
-Grupo #4
-Integrantes:
-*  Ivonne Roxana Minchala Plúas 
- * Joseph Gabriel García Camacho 
- * Marcos Adonis Merchan Mendoza 
- * Alexander Jesús Zambrano Narváez
-*/
+
 import Visual.frmIngreso;
 
 

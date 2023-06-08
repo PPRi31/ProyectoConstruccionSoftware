@@ -3,14 +3,7 @@ package Modelo;
 import java.time.LocalDate;
 import java.util.Date;
 
-/*
-Grupo #4
-Integrantes:
-*  Ivonne Roxana Minchala Plúas 
- * Joseph Gabriel García Camacho 
- * Marcos Adonis Merchan Mendoza 
- * Alexander Jesús Zambrano Narváez
-*/
+
 public class Cliente {
 
     private String cedula, contrasenia, nombre, apellido, correo, telefono, sexo, ciudad, direccion;

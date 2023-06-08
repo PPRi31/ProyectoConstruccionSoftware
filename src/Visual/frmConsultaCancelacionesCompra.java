@@ -11,21 +11,12 @@ import java.io.FileReader;
 import java.io.IOException;
 import javax.swing.table.DefaultTableModel;
 
-/*
-Grupo #4
-Integrantes:
-*  Ivonne Roxana Minchala Plúas 
- * Joseph Gabriel García Camacho 
- * Marcos Adonis Merchan Mendoza 
- * Alexander Jesús Zambrano Narváez
-*/
+
 public class frmConsultaCancelacionesCompra extends javax.swing.JFrame {
 
     DefaultTableModel cancel = new DefaultTableModel();
 
-    /**
-     * Creates new form frmConsultaCompra
-     */
+   
     public frmConsultaCancelacionesCompra(java.awt.Frame parent, boolean modal) {
        modelo();
         initComponents();

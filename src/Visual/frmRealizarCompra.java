@@ -18,14 +18,7 @@ import javax.swing.ButtonGroup;
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 
-/*
-Grupo #4
-Integrantes:
-*  Ivonne Roxana Minchala Plúas 
- * Joseph Gabriel García Camacho 
- * Marcos Adonis Merchan Mendoza 
- * Alexander Jesús Zambrano Narváez
-*/
+
 public class frmRealizarCompra extends javax.swing.JFrame {
     FondoPanel fondo = new FondoPanel();
     frmConsultarCompras obj=new frmConsultarCompras();
@@ -192,7 +185,6 @@ public class frmRealizarCompra extends javax.swing.JFrame {
             }
         });
 
-        btnAceptar.setBackground(new java.awt.Color(255, 255, 255));
         btnAceptar.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         btnAceptar.setText("Aceptar Compra");
         btnAceptar.addActionListener(new java.awt.event.ActionListener() {
@@ -214,7 +206,6 @@ public class frmRealizarCompra extends javax.swing.JFrame {
         jLabel9.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jLabel9.setText("Precio:");
 
-        btnContado.setBackground(new java.awt.Color(255, 255, 255));
         btnContado.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         btnContado.setText("Contado");
         btnContado.addActionListener(new java.awt.event.ActionListener() {
@@ -223,7 +214,6 @@ public class frmRealizarCompra extends javax.swing.JFrame {
             }
         });
 
-        btnAgg.setBackground(new java.awt.Color(255, 255, 255));
         btnAgg.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         btnAgg.setText("Agregar Tarjeta");
         btnAgg.addActionListener(new java.awt.event.ActionListener() {
@@ -232,7 +222,6 @@ public class frmRealizarCompra extends javax.swing.JFrame {
             }
         });
 
-        btnCredito.setBackground(new java.awt.Color(255, 255, 255));
         btnCredito.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         btnCredito.setText("Credito");
         btnCredito.addActionListener(new java.awt.event.ActionListener() {
@@ -318,7 +307,6 @@ public class frmRealizarCompra extends javax.swing.JFrame {
             }
         });
 
-        btnChevrolet.setBackground(new java.awt.Color(255, 255, 255));
         btnChevrolet.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         btnChevrolet.setText("Chevrolet");
         btnChevrolet.addActionListener(new java.awt.event.ActionListener() {
@@ -327,7 +315,6 @@ public class frmRealizarCompra extends javax.swing.JFrame {
             }
         });
 
-        btnHyundai.setBackground(new java.awt.Color(255, 255, 255));
         btnHyundai.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         btnHyundai.setText("Hyundai");
         btnHyundai.addActionListener(new java.awt.event.ActionListener() {
@@ -336,7 +323,6 @@ public class frmRealizarCompra extends javax.swing.JFrame {
             }
         });
 
-        btnToyota.setBackground(new java.awt.Color(255, 255, 255));
         btnToyota.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         btnToyota.setText("Toyota");
         btnToyota.addActionListener(new java.awt.event.ActionListener() {

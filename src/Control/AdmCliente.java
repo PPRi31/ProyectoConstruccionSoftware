@@ -22,14 +22,7 @@ import javax.swing.table.DefaultTableModel;
 import java.util.ArrayList;
 import static javax.print.attribute.Size2DSyntax.MM;
 
-/*
-Grupo #4
-Integrantes:
-*  Ivonne Roxana Minchala Plúas 
- * Joseph Gabriel García Camacho 
- * Marcos Adonis Merchan Mendoza 
- * Alexander Jesús Zambrano Narváez
-*/
+
 public class AdmCliente {
 
     private String administradorCedula = "0123456789";
@@ -38,7 +31,6 @@ public class AdmCliente {
     ArrayList<Cliente> clientes = null;
     ArrayList<Cliente> archivosclientes = null;
     Cliente cliente = null;
-    //DatosCliente datosC = null;
     private static AdmCliente admcliente = null;
 
     public AdmCliente() {
@@ -60,14 +52,7 @@ public class AdmCliente {
                 x = true;
             }
 
-        }/*if(x==false){
-         datosC=new DatosCliente();
-    for(Cliente f:datosC.cargarArchivo){
-    if(cedula.compareTo(f.getCedula())==0){
-    x=true;
-    }
-    }
-    }*/
+        }
         return x;
     }
 
@@ -221,29 +206,7 @@ public class AdmCliente {
         } else {
             JOptionPane.showMessageDialog(null, "Error: \nEl numero de cedula esta incompleto");
         }
-        return x;
-        //if (cedula.length() == 10) {
-        //   for (Cliente a : clientes) {
-
-        //      if (cedula.compareTo(a.getCedula()) == 0) {
-        //         x = true;
-        //     }
-        //  }
-        /* if (x == false) {
-                datosC = new DatosCliente();
-                if (datosC.BuscarArchivo()) {
-                    for (Cliente a : datosC.cargarArchivo()) {
-                        if (cedula.compareTo(a.getCedula()) == 0) {
-                            x = true;
-                            System.out.print(a.getCedula());
-                        }
-                    }
-                }
-            }*/
-        // } else {
-        //     JOptionPane.showMessageDialog(null, "Error: \nEl numero de cedula esta incompleto");
-        // }
-        // return x;
+        return x;       
     }
 
     public String EnviarContrasenia(String cedula) {
@@ -254,14 +217,7 @@ public class AdmCliente {
                 contrasenia = a.getContrasenia();
                 x = true;
             }
-        }
-        /*if (x == false) {
-            for (Cliente a : datosC.cargarArchivo()) {
-                if (cedula.compareTo(a.getCedula()) == 0) {
-                    contrasenia = a.getContrasenia();
-                }
-            }
-        }*/
+        }       
         return contrasenia;
     }
 
@@ -273,14 +229,7 @@ public class AdmCliente {
                 nombre = a.getNombre();
                 x = true;
             }
-        }
-        /*if (x == false) {
-            for (Cliente a : datosC.cargarArchivo()) {
-                if (cedula.compareTo(a.getCedula()) == 0) {
-                    nombre = a.getNombre();
-                }
-            }
-        }*/
+        }       
         return nombre;
     }
 
@@ -292,14 +241,7 @@ public class AdmCliente {
                 apellido = a.getApellido();
                 x = true;
             }
-        }
-        /*if (x == false) {
-            for (Cliente a : datosC.cargarArchivo()) {
-                if (cedula.compareTo(a.getCedula()) == 0) {
-                    apellido = a.getApellido();
-                }
-            }
-        }*/
+        }       
         return apellido;
     }
 
@@ -311,14 +253,7 @@ public class AdmCliente {
                 fecha = a.getFechaNac();
                 x = true;
             }
-        }
-        /*if (x == false) {
-            for (Cliente a : datosC.cargarArchivo()) {
-                if (cedula.compareTo(a.getCedula()) == 0) {
-                    fecha = a.getFechaNac();
-                }
-            }
-        }*/
+        }       
         return fecha;
     }
 
@@ -330,14 +265,7 @@ public class AdmCliente {
                 correo = a.getCorreo();
                 x = true;
             }
-        }
-        /*if (x == false) {
-            for (Cliente a : datosC.cargarArchivo()) {
-                if (cedula.compareTo(a.getCedula()) == 0) {
-                    correo = a.getCorreo();
-                }
-            }
-        }*/
+        }      
         return correo;
     }
 
@@ -350,13 +278,6 @@ public class AdmCliente {
                 x = true;
             }
         }
-        /*if (x == false) {
-            for (Cliente a : datosC.cargarArchivo()) {
-                if (cedula.compareTo(a.getCedula()) == 0) {
-                    telefono = a.getTelefono();
-                }
-            }
-        }*/
         return telefono;
     }
 
@@ -369,13 +290,6 @@ public class AdmCliente {
                 x = true;
             }
         }
-        /*if (x == false) {
-            for (Cliente a : datosC.cargarArchivo()) {
-                if (cedula.compareTo(a.getCedula()) == 0) {
-                    sexo = a.getSexo();
-                }
-            }
-        }*/
         return sexo;
     }
 
@@ -388,13 +302,6 @@ public class AdmCliente {
                 x = true;
             }
         }
-        /*if (x == false) {
-            for (Cliente a : datosC.cargarArchivo()) {
-                if (cedula.compareTo(a.getCedula()) == 0) {
-                   ciudad = a.getCiudad();
-                }
-            }
-        }*/
         return ciudad;
     }
 
@@ -407,13 +314,6 @@ public class AdmCliente {
                 x = true;
             }
         }
-        /* if (x == false) {
-            for (Cliente a : datosC.cargarArchivo()) {
-                if (cedula.compareTo(a.getCedula()) == 0) {
-                    direccion = a.getDireccion();
-                }
-            }
-        }*/
         return direccion;
     }
 
@@ -439,51 +339,7 @@ public class AdmCliente {
                 tblConCliente.setValueAt(a.getDireccion(), fila, 8);
                 fila++;
             }
-            lblTotal.setText(clientes.size() + " "); // con set y fila o size();
-            // autores.size()+" " da error por eso le agg +" " (un espacio).
+            lblTotal.setText(clientes.size() + " ");       
         }
     }
-
-    /* public void verArchivo(JDialog frmVer, JTextArea txtContenido) {
-        String contenido = "";
-        datosC = new DatosCliente();
-        contenido = datosC.leerArchivo();
-        if (contenido.compareTo("") != 0) {//si no esta vacia la cadena
-            //control para cuando se da clic en cancel
-            txtContenido.append(contenido);
-            txtContenido.setEditable(false);
-            frmVer.setVisible(true);
-        }
-    }
-
-    public void guardarArchivo() {
-        String resultado = "";
-        if (clientes.size() > 0) {
-            datosC = new DatosCliente();
-            resultado = datosC.guardarClientes(clientes);
-            if (resultado.charAt(0) == '1') {
-                JOptionPane.showMessageDialog(null, "el archivo se a guardado exitosamente", "informacion",
-                        JOptionPane.INFORMATION_MESSAGE);
-
-            } else if (resultado.charAt(0) == '0') {
-                JOptionPane.showMessageDialog(null, "Su archivo no se ha guardado. Error" + resultado,
-                        "Advertencia", JOptionPane.WARNING_MESSAGE);
-            }
-        } else {
-            JOptionPane.showMessageDialog(null, "No existe infromacion para guardar", "Advertencia",
-                    JOptionPane.WARNING_MESSAGE);
-        }
-    }
-
-    public void eliminar(JTable tblAutores, JLabel lblTotal) {
-        DefaultTableModel modelo = (DefaultTableModel) tblAutores.getModel();
-        int fila = tblAutores.getSelectedRow();
-        if (fila >= 0) {
-            modelo.removeRow(fila);
-            clientes.remove(fila);
-        } else {
-            JOptionPane.showMessageDialog(null, "No selecciono fila para eliminar");
-        }
-
-    }*/
 }
